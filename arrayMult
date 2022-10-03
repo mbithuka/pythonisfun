@@ -1,0 +1,16 @@
+import numpy as np
+c = [5,8,6,1,10]
+g = []
+def arr(elem): #first element in array
+    
+    index = 0
+
+    while index < len(c):# first constrain, index should lie within
+        result = c[elem] * c[index]
+        index +=1
+        g.append(result)
+    return g
+a=0
+while a in range(len(c)): #accessing other elements
+    a+=1
+    print(np.array(arr(elem = a-1)))
