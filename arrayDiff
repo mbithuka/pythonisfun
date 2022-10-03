@@ -8,8 +8,6 @@ def arr(elem): #first element in array
     while index < len(c):# first constrain, index should lie within
         result = c[elem] - c[index]
         index +=1
-        #second element in array
-        #print(c[index-1],np.array(result))
         g.append(result)
     return g
 a=0
